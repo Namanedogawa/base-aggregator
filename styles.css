@@ -9,7 +9,7 @@ body {
 }
 
 h1.title {
-    font-size: 120px; /* Увеличенный размер заголовка */
+    font-size: 96px; /* Увеличенный размер заголовка для первого скриншота */
     font-weight: 900;
     margin: 40px 0;
     color: #ffffff;
@@ -17,7 +17,7 @@ h1.title {
 }
 
 .score {
-    font-size: 64px; /* Увеличенный размер для счета */
+    font-size: 48px; /* Увеличенный размер для счета */
     color: #f0f0f0;
     margin: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
@@ -26,14 +26,14 @@ h1.title {
 .bubble-container {
     position: relative;
     width: 100vw;
-    height: 80vh; /* Увеличенная высота, чтобы учитывать появление на нижней границе */
+    height: 80vh; /* Увеличенная высота для баланса пространства */
     overflow: hidden; /* Ограничивает движение пузырьков */
 }
 
 .bubble {
     position: absolute;
-    width: 100px; /* Размер пузырька */
-    height: 100px;
+    width: 80px; /* Размер пузырька немного уменьшен, чтобы оставалось больше пространства на экране */
+    height: 80px;
     border-radius: 50%;
     background-size: cover;
     border: 4px solid rgba(255, 255, 255, 0.5);
